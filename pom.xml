@@ -13,4 +13,15 @@
 </dependency>
   
   </dependencies>
+  
+    <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>My test repo</name>
+      <url>https://github.com/lexakay/jenkins</url>
+    </repository>
+  </distributionManagement>
+  
+  
+  
 </project>
