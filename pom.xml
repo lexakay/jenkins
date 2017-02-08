@@ -20,7 +20,7 @@
     <repository>
         <id>internal.repo</id>
         <name>Temporary Staging Repository</name>
-        <url>https://github.com/lexakay/jenkins</url>
+        <url>file://${project.build.directory}/mvn-repo</url>
     </repository>
 </distributionManagement>
  
