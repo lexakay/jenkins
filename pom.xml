@@ -6,6 +6,8 @@
   
   <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
+  <!-- url davor: file://${project.build.directory}/mvn-repo -->
+  <!-- url danach: https://github.com/lexakay/jenkins -->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
@@ -18,7 +20,7 @@
     <repository>
         <id>internal.repo</id>
         <name>Temporary Staging Repository</name>
-        <url>file://${project.build.directory}/mvn-repo</url>
+        <url>https://github.com/lexakay/jenkins</url>
     </repository>
 </distributionManagement>
  
